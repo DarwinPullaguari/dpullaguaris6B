@@ -5,7 +5,7 @@ namespace dpullaguaris6B.Views;
 
 public partial class vEstudiante : ContentPage
 {
-	private const string Url = "http://10.2.3.250/wsestudiantes/post.php";
+	private const string Url = "http://172.25.30.38/wsestudiantes/post.php";
 	private readonly HttpClient client=new HttpClient();
 	private ObservableCollection<Models.Estudiante> estud;
 
